@@ -1,0 +1,5 @@
+ # NEMOS CHAIN NOTES 
+
+ ## Features 
+
+ - 
