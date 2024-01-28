@@ -296,7 +296,7 @@ func ValidateTx(tx SignedTx, s *State) error{
 	}
 
 	if tx.Cost() > s.Balances[tx.From]{
-		return fmt.Errorf("wrong TX. Sender '%s' balance is %d NEM. Tx cost is %d NEM", tx.From.String(), s.Balances[tx.From], tx.Cost)
+		return fmt.Errorf("wrong TX. Sender '%s' balance is %d NEM. Tx cost is %d NEM", tx.From.String(), s.Balances[tx.From], tx.Cost())
 	}
 	return nil 
 }
